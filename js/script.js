@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   form?.addEventListener("submit", function(e) {
     e.preventDefault();
 	document.getElementById("time").value = new Date().toLocaleString();
-	emailjs.sendForm('service_9f6mali', 'template_owhl4y6', this).then(function() {
+	emailjs.sendForm('service_kcx3rpo', 'template_owhl4y6', this).then(function() {
 	response.textContent ="Thank you! Your message has been sent. We will contact you shortly.";
 	console.log('SUCCESS!');
 	form.reset();
